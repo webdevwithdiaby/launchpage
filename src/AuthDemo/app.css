@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.header {
+    min-height: 8vh;
+    padding: .5rem 2rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: hsl(120, 100%, 40%);
+    color: #fff;
+    padding: .5rem 2rem;
+    font-size: 1.6rem;
+}
+
+.btn:hover {
+    background-color: hsl(120, 100%, 25%);
+}
+
+main {
+    padding:5rem 2rem;
+}

@@ -1,0 +1,21 @@
+.country {
+  padding: 3rem;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+}
+
+.country:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.country__name {
+  text-transform: uppercase;
+  margin-bottom: 1.4rem;
+}
+
+.country__description {
+  line-height: 1.5;
+}

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    min-height: 8vh;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 0 3rem;
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.brand {
+    font-size: 2rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav__link {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: rgb(53, 51, 51);
+}
+
+.main {
+    background-color: #eee;
+    min-height: 92vh;
+}
+
+.main > * {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+}
+
+.title {
+    font-size: 3.5rem;
+}
+
+.project {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.project__title {
+
+}

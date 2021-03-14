@@ -1,0 +1,27 @@
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.6rem;
+    cursor: pointer;
+}
+
+.todo:hover {
+    background-color: #eee;
+}
+
+.content {
+    flex: 1;
+}
+
+.todo:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.todo__title {
+
+}
+
+.completed {
+    text-decoration: line-through;
+}

@@ -1,0 +1,16 @@
+.btn {
+    display: inline-block;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    padding: .7rem 3rem;
+}
+
+.btn--primary {
+    background-color: hsl(120, 100%, 50%);
+    color: #fff;
+}
+
+.btn--primary:hover {
+    background-color: hsl(120, 100%, 30%);
+}

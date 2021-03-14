@@ -1,0 +1,11 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact:hover {
+    background-color: #f2f2f2;
+}

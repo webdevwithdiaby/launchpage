@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    background:  linear-gradient(to right bottom, hsl(120, 100%, 30%),hsl(120, 100%,50%));
+    color: #777;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.recipe-list {
+    background-color: #eee;
+    color: #000;
+    padding: 2rem;
+    height: 100%;
+    overflow-y: scroll;
+    border-right: 1px solid #ccc;
+}
+
+.recipe-list__btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+.recipe {
+    background-color: #fff;
+    padding: 1.6rem;
+    box-shadow: 0 2rem 4rem rgba(0,0,0,.2);
+    border-radius: 4px;
+    font-size: 1.6rem;
+}
+
+.recipe:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.recipe__top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.recipe__name {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.recipe__btn-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+.recipe__content-section:not(:last-child) {
+    margin-bottom: .9rem;
+}
+
+.recipe__label {
+    font-weight: 700;
+}
+
+
+.recipe__list-container {
+    margin-left: 1.6rem;
+}
+
+
+.recipe-edit {
+    background-color: #eee;
+    color: #000;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 2rem;
+}
+
+
+
+
+
+
+.btn {
+    display: inline-block;
+    padding: 5px 4rem;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.btn--primary {
+    background-color: hsl(90, 100%, 49%);
+    color: #fff;
+}
+
+.btn--primary:hover {
+    background-color: hsl(90, 100%, 30%);
+}
+
+.btn--danger {
+    background-color: hsl(0, 100%, 49%);
+    color: #fff;
+}
+
+.btn--danger:hover {
+    background-color: hsl(0, 100%, 30%);
+}

@@ -1,0 +1,75 @@
+*:root {
+  --color-primary: rgb(235, 39, 202);
+  --color-white: #fff;
+  --color-grey-dark: #777;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-primary);
+  padding: 5rem 1.6rem;
+}
+
+.birthday-app {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: var(--color-white);
+  padding: 2rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.birthday {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.birthday:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.birthday__shape {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.birthday__image {
+  display: inline-block;
+  width: 100%;
+}
+
+.birthday__name {
+  font-size: 1.4rem;
+}
+
+.birthday__description {
+  font-size: 1.2rem;
+  color: var(--color-grey-dark);
+}
+
+.mb-1 {
+  margin-bottom: 0.6rem;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 1.6rem;
+}
+
+.btn-c {
+    text-align: center;
+}
